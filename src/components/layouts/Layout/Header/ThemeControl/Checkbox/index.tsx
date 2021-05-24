@@ -22,7 +22,7 @@ const Checkbox: React.FC<CheckboxProps> = ({ id, checked, onChange, title }) => 
       inputRef.current.click();
     }
   }
-console.log(checked)
+
   return (
     <Container>
       <LabelSwitch htmlFor={id} tabIndex={0} onKeyPress={handleKeyPressed}>
