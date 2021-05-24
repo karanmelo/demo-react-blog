@@ -13,6 +13,7 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  background-color: ${(props) => props.theme.colors.body};
   box-shadow: 0px 0px 13px -6px black;
 
   ${mediaQueries('sm')`
