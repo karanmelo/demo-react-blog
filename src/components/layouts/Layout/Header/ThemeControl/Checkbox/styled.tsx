@@ -13,8 +13,8 @@ export const Container = styled.div`
 
 export const LabelSwitch = styled.label`
   position: relative;
-  min-width: 80px;;
-  height: 40px;
+  min-width: 8rem;;
+  min-height: 4rem;
   
   display: inline-block;
 
@@ -30,11 +30,11 @@ export const Input = styled.input`
   }
 
   &:checked + div:before {
-    left: -18px;
+    left: -1.8rem;
 
     background: url(${Sol}) 0% 0% no-repeat padding-box;
-    background-size: 30px;
-    transform: translateX(26px);
+    background-size: 3rem;
+    transform: translateX(2.6rem);
   }
 `;
 
@@ -50,20 +50,20 @@ export const Slider = styled.div<SliderProps>`
   right: 0;
   background: rgba(9,9,121,1);
   background: linear-gradient(0deg,rgba(9,9,121,1) 0%,rgba(2,0,36,1) 100%);
-  border-radius: 23px;
+  border-radius: 2.3rem;
   cursor: pointer;
   transition: .4s;
 
   &:before {
     position: absolute;
-    width: 35px;
-    height: 35px;
-    top: 5px;
-    left: 39px;
+    width: 3.5rem;
+    height: 3.5rem;
+    top: .5rem;
+    left: 3.9rem;
 
     content: "";
     background: url(${Lua}) 0% 0% no-repeat padding-box;
-    background-size: 30px;
+    background-size: 3rem;
     transition: .4s;
   }
 `;
