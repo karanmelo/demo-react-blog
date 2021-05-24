@@ -4,12 +4,10 @@ import { CustomThemeProvider } from './hooks/theme';
 
 const App: React.FC = () => {
   return (
-    <>
-      <CustomThemeProvider>
-        <Layout />
-        <GlobalStyles />
-      </ CustomThemeProvider>
-    </>
+    <CustomThemeProvider>
+      <Layout />
+      <GlobalStyles />
+    </ CustomThemeProvider>
   );
 }
 
