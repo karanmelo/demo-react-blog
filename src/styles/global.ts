@@ -14,7 +14,18 @@ export default createGlobalStyle`
   }
 
   :root {
+    --background-theme: ${({ theme }) => theme.colors.body};
+    --background-white: #ffffff;
+    --background-black: #000000;
 
+    --font-color-theme: ${({ theme }) => theme.colors.text};
+    --font-color-white: #ffff;
+    --font-color-black: #000000;
+
+    --color-gray: #323437;
+    --color-medium-gray: #3c4858;
+    --color-light-gray: #e5e5e5;
+    --color-violet: #8719cc;
   }
 
   * {
@@ -35,8 +46,8 @@ export default createGlobalStyle`
   body {
     height: 100vh;
     padding: 0;
-    background: ${({ theme }) => `${theme.colors.body} 0% 0% no-repeat padding-box`};
-    color: ${({ theme }) => theme.colors.text};
+    background: var(--background-theme) 0% 0% no-repeat padding-box;
+    color: var(--font-color-theme);
 
     overflow-y: auto;
 
@@ -58,7 +69,8 @@ export default createGlobalStyle`
   a {
     text-decoration: none;
     background: none;
-    font-weight: 700;
+    color: ${({ theme }) => theme.colors.text};
+    font-weight: 300;
     cursor: pointer;
     border: 0;
     transition: 180ms ease-in-out;

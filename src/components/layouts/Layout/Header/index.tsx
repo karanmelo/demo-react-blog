@@ -1,9 +1,13 @@
+import Home from './Home';
+import Menu from './Menu';
+
 import { Container } from './styled';
 
 const Header: React.FC = () => {
   return (
     <Container>
-      <h1>Demo React Blog</h1>
+      <Home />
+      <Menu />
     </Container>
   )
 }
