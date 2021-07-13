@@ -93,7 +93,7 @@ export default createGlobalStyle`
   /** Customização do scrollbars */
   * {
     scrollbar-width: thin;
-    scrollbar-color: #65B2FF #e6e6e6;
+    scrollbar-color: var(--color-violet) ${({ theme }) => theme.colors.body};
   }
 
   /* Works on Chrome, Edge, and Safari */
@@ -102,12 +102,12 @@ export default createGlobalStyle`
   }
 
   *::-webkit-scrollbar-track {
-    background: #e6e6e6;
+    background: ${({ theme }) => theme.colors.body};
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #65B2FF;
+    background-color: var(--color-violet);
     border-radius: 20px;
-    border: 3px solid #e6e6e6;
+    border: 3px solid ${({ theme }) => theme.colors.body};
   }
 `;
