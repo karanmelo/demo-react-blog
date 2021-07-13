@@ -5,7 +5,7 @@ import {
   LabelSwitch,
   Input,
   Slider
-} from './styled';
+} from './styles';
 
 interface CheckboxProps extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;

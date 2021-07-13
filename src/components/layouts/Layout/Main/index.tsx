@@ -1,12 +1,13 @@
 import Hero from './Hero';
+import Content from './Content';
 
 import { Container } from './styled';
 
 const Main: React.FC = () => {
   return (
     <Container>
-      <div></div>
       <Hero />
+      <Content />
     </Container>
   )
 }

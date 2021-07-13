@@ -1,4 +1,4 @@
-import { Container } from './styled';
+import { Container } from './styles';
 
 const Button: React.FC = () => {
   return (
