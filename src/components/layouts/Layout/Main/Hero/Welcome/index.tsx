@@ -4,7 +4,7 @@ const Welcome: React.FC = () => (
   <Container>
     <h2>Welcome to Demo React Blog</h2>
     <p>Lorem ipsum dolor sit amet</p>
-    <a>SEE MORE</a>
+    <a href="/">SEE MORE</a>
   </Container>
 );
 
