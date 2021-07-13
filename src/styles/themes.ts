@@ -1,8 +1,8 @@
 export const lightTheme = {
   name: 'light',
   colors: {
-    body: '#ffffff',
-    text: '#000000',
+    body: '#fefefe',
+    text: '#363537',
   }
 };
 
@@ -10,6 +10,6 @@ export const darkTheme = {
   name: 'dark',
   colors: {
     body: '#363537',
-    text: '#ffffff',
+    text: '#fefefe',
   }
 };

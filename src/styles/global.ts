@@ -15,11 +15,11 @@ export default createGlobalStyle`
 
   :root {
     --background-theme: ${({ theme }) => theme.colors.body};
-    --background-white: #ffffff;
+    --background-white: #fefefe;
     --background-black: #000000;
 
     --font-color-theme: ${({ theme }) => theme.colors.text};
-    --font-color-white: #ffff;
+    --font-color-white: #fefefe;
     --font-color-black: #000000;
 
     --color-gray: #323437;
